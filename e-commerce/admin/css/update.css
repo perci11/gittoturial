@@ -1,0 +1,381 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+:root{
+   --green:#27ae60;
+   --black:#333;
+   --white:#fff;
+   --bg-color:#eee;
+   --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+   --border:.1rem solid var(--black);
+}
+
+*{
+   font-family: 'Poppins', sans-serif;
+   margin:0; padding:0;
+   box-sizing: border-box;
+   outline: none; border:none;
+   text-decoration: none;
+   text-transform: capitalize;
+}
+
+html{
+   font-size: 62.5%;
+   overflow-x: hidden;
+}
+
+
+.btn{
+   display: block;
+   width: 100%;
+   cursor: pointer;
+   border-radius: .5rem;
+   margin-top: 1rem;
+   font-size: 1.7rem;
+   padding:1rem 3rem;
+   background: var(--green);
+   color:var(--white);
+   text-align: center;
+}
+
+.btn:hover{
+   background: var(--black);
+}
+
+.message{
+   display: block;
+   background: var(--bg-color);
+   padding:1.5rem 1rem;
+   font-size: 2rem;
+   color:var(--black);
+   margin-bottom: 2rem;
+   text-align: center;
+   margin-top: 150px;
+}
+
+.btn{
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    border-radius: .5rem;
+    margin-top: 1rem;
+    font-size: 1.7rem;
+    padding:1rem 3rem;
+    background-color:seagreen;
+    color:var(--white);
+    text-align: center;
+    transition: background-color 0.5s ease;
+ }
+ 
+ .btn:hover{
+    background: var(--black);
+ }
+ 
+ .message{
+    display: block;
+    background: var(--bg-color);
+    padding:1.5rem 1rem;
+    font-size: 2rem;
+    color:var(--black);
+    margin-bottom: 2rem;
+    text-align: center;
+ }
+
+
+.bgtop {
+    background-size: cover;
+    background-color:seagreen;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 150px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-shadow: #666;
+} 
+
+.logo {
+    width: 80px;
+    height: auto;
+    margin-top: 5px;
+    margin-left:850px;
+  }
+
+
+.scrolled {
+    background-color: #fff;
+}
+
+
+/* Tabs */
+.menu {
+    font-size: x-large;
+    display: flex;
+    align-items: left;
+    margin-left: 10px;
+    
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+    margin: 0 8px;
+    transition: color 0.5s ease;
+    padding: 8px 15px;
+    transition: border-color 0.5s ease-in-out;
+    transition: color 0.5s ease;
+}
+
+.menu a:hover {
+    border-bottom: 4px solid seagreen;
+    color: seagreen;
+
+}
+
+.cart-user {
+    margin-left: 100px;
+    margin-right: 50px;
+
+}
+
+.user{
+        
+   text-decoration: none;
+   display: inline-block; 
+   padding: 9px 12px; 
+   font-size: 12px;
+   color: rgb(255, 255, 255);
+   border-radius: 20px;
+   cursor: pointer;
+   transition: background-color 0.5s ease;
+   background-color: #333;
+   transition: color 0.5s ease; 
+   transform: translateX(400px);
+   
+
+}
+
+    .user:hover {
+        background-color: #37c776d5;
+        color:black;
+    }
+
+.user {
+    margin-right: 50px; 
+}
+
+.logout {
+    text-decoration: none;
+    display: inline-block; 
+    padding: 10px 20px; 
+    font-size: 15px;
+    color: black;
+    border-radius: 20px;
+    border: 1px;
+    cursor: pointer;
+    transition: color 0.5s ease; 
+    font-weight: bold;
+}
+
+.logout:hover{
+    color:rgb(255, 255, 255);
+}
+
+.ordermanagement {
+   text-decoration: none;
+   display: inline-block; 
+   padding: 10px 20px; 
+   font-size: 15px;
+   color: black;
+   border-radius: 20px;
+   border: 1px;
+   cursor: pointer;
+   transition: color 0.5s ease; 
+   font-weight: bold;
+}
+
+.ordermanagement:hover{
+   color:rgb(255, 255, 255);
+}
+
+
+
+
+.container{
+   max-width: 1200px;
+   padding:2rem;
+   margin:0 auto;
+   margin-top: 180px;
+}
+
+.admin-product-form-container.centered{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   min-height: 100vh;
+   
+}
+
+.admin-product-form-container form{
+   max-width: 50rem;
+   margin:0 auto;
+   padding:2rem;
+   border-radius: .5rem;
+   background: var(--bg-color);
+}
+
+.admin-product-form-container form h3{
+   text-transform: uppercase;
+   color:var(--black);
+   margin-bottom: 1rem;
+   text-align: center;
+   font-size: 2.5rem;
+}
+
+.admin-product-form-container form .box{
+   width: 100%;
+   border-radius: .5rem;
+   padding:1.2rem 1.5rem;
+   font-size: 1.7rem;
+   margin:1rem 0;
+   background: var(--white);
+   text-transform: none;
+}
+
+.product-display{
+   margin:2rem 0;
+}
+
+.product-display .product-display-table{
+   width: 100%;
+   text-align: center;
+}
+
+.product-display .product-display-table thead{
+   background: var(--bg-color);
+}
+
+.product-display .product-display-table th{
+   padding:1rem;
+   font-size: 2rem;
+}
+
+
+.product-display .product-display-table td{
+   padding:1rem;
+   font-size: 2rem;
+   border-bottom: var(--border);
+}
+
+.product-display .product-display-table .btn:first-child{
+   margin-top: 0;
+}
+
+.product-display .product-display-table .btn:last-child{
+   background: rgb(3, 3, 3);
+}
+
+.product-display .product-display-table .btn:last-child:hover{
+   background: var(--black);
+}
+
+
+.file-upload-label {
+    display: inline-block;
+    padding: 15px 25px;
+    background-color: seagreen;
+    color: var(--white);
+    font-size: 1.6rem;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.file-upload-label:hover {
+    background-color: var(--black);
+}
+
+.file-input {
+    display: none;
+}
+
+#file-name {
+    margin-left: 10px; /* Adjust spacing as needed */
+    font-size: 1.4rem;
+    color: var(--black);
+}
+
+
+@media (max-width:991px){
+
+   html{
+      font-size: 55%;
+   }
+
+}
+
+@media (max-width:768px){
+
+   .product-display{
+      overflow-y:scroll;
+   }
+
+   .product-display .product-display-table{
+      width: 80rem;
+   }
+
+}
+
+@media (max-width:450px){
+
+   html{
+      font-size: 50%;
+   }
+
+}
+.back-btn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.back-btn:hover {
+    background-color: #0056b3;
+}
+
+
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #2E8B57;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  .footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,187 @@
+body {
+    background-color: #f4f7fa;
+    font-family: 'Roboto', sans-serif;
+    
+    
+}
+.container {
+    max-width: 1200px;
+    margin-top: 200px;
+    
+}
+h2 {
+    font-weight: 600;
+    color: #343a40;
+    margin-bottom: 30px;
+}
+.table thead {
+    background-color:seagreen;
+    color: white;
+    
+}
+.table th, .table td {
+    vertical-align: middle;
+}
+.btn {
+    border-radius: 20px;
+}
+.btn-success {
+    background-color: #28a745;
+}
+.btn-secondary {
+    background-color: #6c757d;
+}
+.alert {
+    margin-bottom: 20px;
+}
+
+.table-responsive {
+border-radius: 20px;
+}
+
+body {
+    background-color: #F8F8F8;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    position: relative;
+}
+
+.logo {
+    width: 80px;
+    height: auto;
+    margin-left:49%;
+   
+}
+
+
+/* Top Header */
+.bgtop {
+    background-size: cover;
+    background-color: white;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 150px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-shadow: #666;
+}
+
+.scroll {
+    background-color: #fff;
+}
+/* Top Header */
+
+/* Tabs */
+.menu {
+    font-size: x-large;
+    display: flex;
+    align-items: left;
+    margin-left: 10px;
+    
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+    margin: 0 8px;
+    transition: color 0.5s ease;
+    padding: 8px 15px;
+    transition: border-color 0.5s ease-in-out;
+    transition: color 0.5s ease;
+}
+
+.menu a:hover {
+    border-bottom: 4px solid seagreen;
+    color: seagreen;
+
+}
+
+.cart-user {
+    margin-left: auto;
+    margin-right: 50px;
+
+}
+
+.cart{
+        text-decoration: none;
+        display: inline-block; 
+        padding: 10px 20px; 
+        font-size: 24px;
+        font-style: normal;
+        color: black;
+        border-radius: 20px;
+        border: 1px;
+        cursor: pointer;
+        transition: color 0.5s ease; 
+    
+    
+}
+
+
+.user{
+        
+        text-decoration: none;
+        display: inline-block; 
+        padding: 9px 12px; 
+        font-size: 12px;
+        color: rgb(255, 255, 255);
+        border-radius: 50px;
+        cursor: pointer;
+        transition: background-color 0.5s ease;
+        background-color: seagreen;
+        transform: translateX(-630px);
+        transition: color 0.5s ease; 
+    
+    }
+
+
+    .cart:hover{
+        color:seagreen;
+    
+        
+    }
+    
+    
+    .user:hover {
+        background-color: #1eaf5dd5;
+        color:black;
+    }
+
+.cart,
+.user {
+    margin-right: 50px; 
+}
+
+.logout {
+    text-decoration: none;
+    display: inline-block; 
+    padding: 10px 20px; 
+    font-size: 15px;
+    color: white;
+    border-radius: 20px;
+    background-color: seagreen;
+    cursor: pointer;
+    transition: background-color 0.5s ease; 
+    font-weight: bold;
+}
+
+.logout:hover{
+    background-color:#333;
+    color: white;
+    text-decoration: none;
+}
